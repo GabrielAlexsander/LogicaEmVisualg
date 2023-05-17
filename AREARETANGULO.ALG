@@ -1,18 +1,17 @@
 Algoritmo "AreaRetangulo"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Obama
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Gabriel Alexsander
-// Data atual  : 17/03/2023
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : jailson
+// Descrição   : Calcular a area de um retangulo
+// Autor(a)    : Gabriel
+// Data atual  : 29/03/2023
 Var
-Alt, lrg, area: real
-
+   base, altura, area: real
 
 Inicio
-escreval ("Digite a altura do retangulo:")
-leia (alt)
-escreval ("digite a largura do retangulo:")
-leia (lrg)
-area <-alt*lrg
-escreva ("area do retangulo é", area)
-Fimalgoritmo
+   Escreva("Digite a base do retangulo: ")
+   Leia(base)
+   Escreva("Digite a altura do retangulo: ")
+   Leia(altura)
+   area <- base * altura
+   Escreva("A area do retangulo é: ", area)
+FimAlgoritmo
